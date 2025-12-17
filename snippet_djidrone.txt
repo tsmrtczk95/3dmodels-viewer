@@ -1,0 +1,1 @@
+<model-viewer src="dji_3_mini_pro_2k.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.png" shadow-intensity="1" camera-orbit="-10deg 94deg 0.6973m" field-of-view="30deg" camera-target="-0.1m 0.03437m -0.2723m"> </model-viewer>
