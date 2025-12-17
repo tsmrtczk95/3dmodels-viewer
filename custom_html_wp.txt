@@ -1,0 +1,32 @@
+<!-- Load model-viewer (latest stable) -->
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
+<style>
+  /* Optional: responsive container */
+  .mv-container {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+  model-viewer {
+    width: 100%;
+    height: 1080px;
+    background: #a5c8eb;
+    border-radius: 8px;
+  }
+</style>
+
+<div class="mv-container">
+  <model-viewer
+    src="https://github.com/tsmrtczk95/3dmodels-viewer/blob/main/models/dji_drone.glb"
+    alt="DJI 3 Mini Drone"
+    camera-controls
+    touch-action="pan-y"
+    auto-rotate
+    poster=""
+    shadow-intensity="0.7"
+    exposure="0.9"
+    environment-image="neutral"
+    interaction-policy="always">
+  </model-viewer>
+</div>
